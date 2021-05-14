@@ -21,27 +21,27 @@ public class WeaponSwap : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            Swap(1);
+            Swap(0);
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            Swap(2);
+            Swap(1);
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3))
         {
-            Swap(3);
+            Swap(2);
         }
         else if (Input.GetKeyDown(KeyCode.Alpha4))
         {
-            Swap(4);
+            Swap(3);
         }
         else if (Input.GetKeyDown(KeyCode.Alpha5))
         {
-            Swap(5);
+            Swap(4);
         }
         else if (Input.GetKeyDown(KeyCode.Alpha6))
         {
-            Swap(6);
+            Swap(5);
         }
         else if (Input.GetKeyDown(KeyCode.Backspace))
         {
