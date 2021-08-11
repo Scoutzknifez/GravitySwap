@@ -81,7 +81,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void doPlayerMovement()
     {
-        float x = Input.GetAxis("Horizontal");
+        float x = Input.GetAxisRaw("Horizontal");
         float z = Input.GetAxis("Vertical");
 
         isMovingForwardBackward = z != 0;

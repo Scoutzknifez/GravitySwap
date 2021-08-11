@@ -16,11 +16,11 @@ public class Interactable : MonoBehaviour
     {
         if (isInteractable)
         {
-            gameObject.GetComponent<MeshRenderer>().sharedMaterial.color = activeColor;
+            gameObject.GetComponent<MeshRenderer>().material.color = activeColor;
         }
         else
         {
-            gameObject.GetComponent<MeshRenderer>().sharedMaterial.color = disabledColor;
+            gameObject.GetComponent<MeshRenderer>().material.color = disabledColor;
         }
     }
 
