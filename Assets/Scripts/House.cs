@@ -22,16 +22,43 @@ public class House : MonoBehaviour
     {
         vertices = new Vector3[]
         {
+            //base
             new Vector3 (0,0,0),
             new Vector3 (0,0,150),
             new Vector3 (150,0,0),
-            new Vector3 (150, 0, 150)
+            new Vector3 (150, 0, 150),
+
+            //top
+            new Vector3 (0,150, 0),
+            new Vector3 (150, 150, 0),
+            new Vector3 (0, 150, 150),
+            new Vector3 (150, 150, 150)
         };
 
         triangles = new int[]
         {
             0,1,2,
-            1,3,2
+            2,1,3,
+
+            0,2,5,
+            5,4,0,
+
+            6, 1, 0,
+            6, 0,4,
+
+            2,3,7,
+            7,5,2,
+
+            7,3,1,
+            7,1,6,
+
+            4,5,6,
+            5,7,6
+
+
+
+            //4, 5, 6,
+            //5, 7, 6
         };
     }
 
