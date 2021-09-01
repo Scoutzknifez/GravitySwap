@@ -87,6 +87,7 @@ public class PlayerMovement : MonoBehaviour
         isMovingForwardBackward = z != 0;
         isMovingLeftRight = x != 0;
 
+        //same as new Vector3 (transform.right * x, 0, transform.forward * z)
         Vector3 moveVector = transform.right * x + transform.forward * z;
         moveVector *= moveSpeed;
 
