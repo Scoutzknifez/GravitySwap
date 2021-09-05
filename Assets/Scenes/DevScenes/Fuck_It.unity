@@ -4834,6 +4834,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba140986e279365439533cf4e90a537e, type: 3}
+--- !u!20 &1095306255 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 2136026894289007159, guid: ba140986e279365439533cf4e90a537e, type: 3}
+  m_PrefabInstance: {fileID: 1095306254}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1095306256 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2136026894362558012, guid: ba140986e279365439533cf4e90a537e, type: 3}
+  m_PrefabInstance: {fileID: 1095306254}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1095306257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095306256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c91f61a707148e49b1cb6e0e2946887, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCamera: {fileID: 1095306255}
+  interactionDistance: 3.5
 --- !u!43 &1298433595
 Mesh:
   m_ObjectHideFlags: 0

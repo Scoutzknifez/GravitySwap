@@ -7,13 +7,15 @@ public class Interactable : MonoBehaviour
     public Color activeColor;
     public Color disabledColor;
     [Range(0f, 1f)]
-    public float darkenOnHover = .5f;
+    public float darkenOnHover = 1f;
 
     public bool isInteractable;
     public UnityEvent onInteract;
+    Color hoverColor;
 
     private void Start()
     {
+        hoverColor = Color.black;
         if (isInteractable)
         {
             gameObject.GetComponent<MeshRenderer>().material.color = activeColor;
@@ -40,9 +42,9 @@ public class Interactable : MonoBehaviour
         {
             return;
         }
-
-        Color hoverColor = Color.Lerp(Color.black, activeColor, darkenOnHover);
-        gameObject.GetComponent<MeshRenderer>().sharedMaterial.color = hoverColor;
+        //Called only once
+        activeColor = Color.Lerp(activeColor, hoverColor, darkenOnHover);
+        gameObject.GetComponent<MeshRenderer>().sharedMaterial.color = activeColor;
     }
 
     public void LeaveHover()

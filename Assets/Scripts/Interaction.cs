@@ -3,8 +3,8 @@ using UnityEngine;
 public class Interaction : MonoBehaviour
 {
     public Camera mainCamera;
-    public float interactionDistance = 3.5f;
-
+    public float interactionDistance = 100f;
+    public GameObject interactable;
     private GameObject recentHit = null;
 
 
@@ -17,8 +17,7 @@ public class Interaction : MonoBehaviour
     void CheckIfInteractableInForwardView()
     {
         int interactableLayer = LayerMask.GetMask("Interactable");
-
-        bool hit = Physics.Raycast(mainCamera.transform.position, mainCamera.transform.forward, out RaycastHit rayHitInfo, interactionDistance, interactableLayer);
+        bool hit = Physics.Raycast(mainCamera.transform.position, mainCamera.transform.TransformDirection(Vector3.forward), out RaycastHit rayHitInfo, interactionDistance, interactableLayer);
 
         if (hit)
         {

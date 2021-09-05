@@ -15,11 +15,11 @@ I:/Users/danie/ICS 167/GravitySwap
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59300
+64001
 Successfully changed project path to: I:/Users/danie/ICS 167/GravitySwap
 I:/Users/danie/ICS 167/GravitySwap
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 53.10 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 39.64 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,861 +35,983 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009288 seconds.
+Registered in 0.003969 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 47.76 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 41.09 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.793 seconds
+- Completed reload, in  1.708 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012795 seconds.
+Registered in 0.000887 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.586 seconds
+- Completed reload, in  1.162 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1528 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 1984.
+Total: 2.711500 ms (FindLiveObjects: 0.215100 ms CreateObjectMapping: 0.040900 ms MarkObjects: 2.241100 ms  DeleteObjects: 0.212700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Weapons/Guns.cs
+  artifactKey: Guid(a41a9be0fda544442b49b60232deca2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Weapons/Guns.cs using Guid(a41a9be0fda544442b49b60232deca2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5d3f82cc8261a0af112c10888b5472') in 0.225398 seconds
+  Import took 0.240848 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001264 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.962 seconds
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(a567247a5f0236b428ebd215969af2df) path("Assets/Scripts/Weapons/Rifle.cs") state(2)
+Script is not up to date after domain reload: guid(f6be21a62e18c304e8946aacbcf4168a) path("Assets/Scripts/Weapons/Pistol.cs") state(2)
 Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.9 MB.
-System memory in use after: 76.0 MB.
+Unloading 1493 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.4 MB.
+System memory in use after: 85.5 MB.
 
-Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 1965.
-Total: 2.532600 ms (FindLiveObjects: 0.250900 ms CreateObjectMapping: 0.050900 ms MarkObjects: 2.048200 ms  DeleteObjects: 0.181500 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1987.
+Total: 2.412400 ms (FindLiveObjects: 0.196500 ms CreateObjectMapping: 0.039400 ms MarkObjects: 2.063400 ms  DeleteObjects: 0.111500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000901 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.023 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1495 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.6 MB.
+System memory in use after: 85.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1992.
+Total: 2.366400 ms (FindLiveObjects: 0.183100 ms CreateObjectMapping: 0.036700 ms MarkObjects: 2.040800 ms  DeleteObjects: 0.104400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Materials/White_snaps002.mat
-  artifactKey: Guid(4a11ac89ec3635a4b896556552983d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Materials/White_snaps002.mat using Guid(4a11ac89ec3635a4b896556552983d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e11d0dd718fa2e81dc8d108f29ef14') in 0.144935 seconds
-  Import took 0.148207 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Materials/Orange_snaps002.mat
-  artifactKey: Guid(1d2cbf17d90a3884f8f0c10cd230f809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Materials/Orange_snaps002.mat using Guid(1d2cbf17d90a3884f8f0c10cd230f809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ffc233e008df1c5c617f9c45d7fbdb') in 0.024167 seconds
-  Import took 0.027466 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/ProBuilderDefault.mat
-  artifactKey: Guid(c22777d6e868e4f2fb421913386b154e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/ProBuilderDefault.mat using Guid(c22777d6e868e4f2fb421913386b154e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183a840998d6f3457ee3409bbb6ca2cd') in 0.049786 seconds
-  Import took 0.053006 seconds .
+  Time since last request: 65.729760 seconds.
+  path: Assets/Thirdparty/Weapons/flamethrower.obj
+  artifactKey: Guid(605c61b4d47005948ab7a3524736b875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Weapons/flamethrower.obj using Guid(605c61b4d47005948ab7a3524736b875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f045a4ec9cd184d280edb5e289bb96b1') in 0.560171 seconds
+  Import took 0.563336 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000257 seconds.
-  path: Assets/Thirdparty/Weapons/Materials/Red.mat
-  artifactKey: Guid(a1972b8c13e2d7f4b81d71b29d199439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Weapons/Materials/Red.mat using Guid(a1972b8c13e2d7f4b81d71b29d199439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab193193ecef36a8c2cace3a71acc252') in 0.051707 seconds
-  Import took 0.055178 seconds .
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/machinegunLauncher.png
+  artifactKey: Guid(25710f91d56236a489bc9e9b1e8b9932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/machinegunLauncher.png using Guid(25710f91d56236a489bc9e9b1e8b9932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9993a78622d7539abb90b2c5849de581') in 0.542160 seconds
+  Import took 0.545377 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/NoDraw.mat
-  artifactKey: Guid(8cb4d6fee77fd4ee6895f08b240d625f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/NoDraw.mat using Guid(8cb4d6fee77fd4ee6895f08b240d625f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a128ac91e324333e73d76b06aa74d692') in 0.056878 seconds
-  Import took 0.060032 seconds .
+  Time since last request: 0.000207 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/rocketlauncherModern.png
+  artifactKey: Guid(7f901606a0690ea40bbe0f110bbf0d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/rocketlauncherModern.png using Guid(7f901606a0690ea40bbe0f110bbf0d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37477dac27f1a49b9335f7bd240c844c') in 0.089721 seconds
+  Import took 0.092445 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Materials/Red_snaps002.mat
-  artifactKey: Guid(015a5e2de7cf2514eb887cb8b34877d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Materials/Red_snaps002.mat using Guid(015a5e2de7cf2514eb887cb8b34877d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6542017bc36cdf9b5d295a8289d0ac97') in 0.029500 seconds
-  Import took 0.032698 seconds .
+  Time since last request: 0.000225 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/grenadeFlash.png
+  artifactKey: Guid(41c4a18f189b56a40b8fa7d5d794d50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/grenadeFlash.png using Guid(41c4a18f189b56a40b8fa7d5d794d50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6933e53886501c330849a7b852d124') in 0.091264 seconds
+  Import took 0.093923 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Materials/Machine Orange Light_snaps002.mat
-  artifactKey: Guid(dfe499413b9e65e409dcfaa1013609fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Materials/Machine Orange Light_snaps002.mat using Guid(dfe499413b9e65e409dcfaa1013609fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e351d901a1515a3e7a19cbf43ca4a65a') in 0.026077 seconds
-  Import took 0.030171 seconds .
+  Time since last request: 0.000207 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/grenadeSmoke.png
+  artifactKey: Guid(e7ac25478e0f1bc41bbf531e5dad5832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/grenadeSmoke.png using Guid(e7ac25478e0f1bc41bbf531e5dad5832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dce742abd4ab89f2888b1a0d35b0409') in 0.113661 seconds
+  Import took 0.116227 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Materials/Yellow_snaps002.mat
-  artifactKey: Guid(2e89229997eb0fd4fb0ceb1c61a61593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Materials/Yellow_snaps002.mat using Guid(2e89229997eb0fd4fb0ceb1c61a61593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ca9a9915828bb66b9856a1a3c98ecf') in 0.028190 seconds
-  Import took 0.032414 seconds .
+  Time since last request: 0.000204 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/rocketlauncher.png
+  artifactKey: Guid(cbade94b13183664c814a793803051ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/rocketlauncher.png using Guid(cbade94b13183664c814a793803051ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee16a4de37b25e7e5aad07eb9f6be3b') in 0.066808 seconds
+  Import took 0.069357 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Materials/MachineOrange_snaps002.mat
-  artifactKey: Guid(80507923a3333a6498095c8c364d7983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Materials/MachineOrange_snaps002.mat using Guid(80507923a3333a6498095c8c364d7983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4410b75f53f9a15a1f1b3e0c5e321c6') in 0.028195 seconds
-  Import took 0.031289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.802089 seconds.
-  path: Assets/Thirdparty/WeaponPack/Models/shotgunShort.obj
-  artifactKey: Guid(7984e8b339f8f1746b8af59d341fc474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/WeaponPack/Models/shotgunShort.obj using Guid(7984e8b339f8f1746b8af59d341fc474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6f38896fda2f6c7c16d8a775a481ee') in 0.172318 seconds
-  Import took 0.175739 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Thirdparty/Weapons/Materials/WarmGray8.mat
-  artifactKey: Guid(4065b5c48a33f22498535ade4014f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Weapons/Materials/WarmGray8.mat using Guid(4065b5c48a33f22498535ade4014f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1953adcb5a8181ca53a30dc9017a86b') in 0.029137 seconds
-  Import took 0.032315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Thirdparty/Weapons/Materials/WarmGray6.mat
-  artifactKey: Guid(a0051530ee26a80408fd114b17a7424a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Weapons/Materials/WarmGray6.mat using Guid(a0051530ee26a80408fd114b17a7424a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b30533e11cc3d489187608e9940cc5') in 0.059176 seconds
-  Import took 0.062242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Thirdparty/WeaponPack/Models/shotgun.obj
-  artifactKey: Guid(be958f88b1229e14689c74d7cca74946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/WeaponPack/Models/shotgun.obj using Guid(be958f88b1229e14689c74d7cca74946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a874483cdaef3dcd68837b5978e5608') in 0.098330 seconds
-  Import took 0.101968 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Thirdparty/WeaponPack/Models/knife_smooth.obj
-  artifactKey: Guid(45c7f3c272508f846ac6900c1fcfa07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/WeaponPack/Models/knife_smooth.obj using Guid(45c7f3c272508f846ac6900c1fcfa07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efda51b71a4a6d7c8bedd8d729ab160') in 0.087599 seconds
-  Import took 0.090843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.288672 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/Trigger.mat
-  artifactKey: Guid(a1e97cbf2538241b691aae8243b5fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/Trigger.mat using Guid(a1e97cbf2538241b691aae8243b5fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e56392b0cbaede845a3772225059045') in 0.075326 seconds
-  Import took 0.078548 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/VertexPickerHDRP.mat
-  artifactKey: Guid(7d5c9fc287a2aa945a98203d41282923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/VertexPickerHDRP.mat using Guid(7d5c9fc287a2aa945a98203d41282923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9180fb318212d9420e7baa6eef757eaf') in 0.022571 seconds
-  Import took 0.025603 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/VertexPicker.mat
-  artifactKey: Guid(30a8575e1d4cc4e01a88ffbf4f973d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/VertexPicker.mat using Guid(30a8575e1d4cc4e01a88ffbf4f973d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6a13acc9f2f44c14ec40e9d0c13fc5') in 0.015758 seconds
-  Import took 0.019487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorLWRP.mat
-  artifactKey: Guid(077a003b1de1e4c35923be7a21b5d948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorLWRP.mat using Guid(077a003b1de1e4c35923be7a21b5d948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebeac3f882d2af0aec0fec23c85381cd') in 0.032289 seconds
-  Import took 0.035491 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/UnlitVertexColor.mat
-  artifactKey: Guid(29966c3c0907b49b58c4e59342d020cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/UnlitVertexColor.mat using Guid(29966c3c0907b49b58c4e59342d020cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c63905e66b72193fd49802af2b9de91') in 0.015022 seconds
-  Import took 0.018445 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Thirdparty/Weapons/Materials/Redwood.mat
-  artifactKey: Guid(6d819cd7190b96141a6695ab4511fa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Weapons/Materials/Redwood.mat using Guid(6d819cd7190b96141a6695ab4511fa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f6883f40ec1c88b3eb0b1c0e4a6afe') in 0.028500 seconds
-  Import took 0.032023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorHDRP.mat
-  artifactKey: Guid(c35693c079f3840f7938a4a323096e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorHDRP.mat using Guid(c35693c079f3840f7938a4a323096e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e5facf3da86c4de3fa126b1ac9dbb4') in 0.028245 seconds
-  Import took 0.031511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.552336 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/InvisibleFace.mat
-  artifactKey: Guid(978bbcf5050244f1b95128c04103f628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/InvisibleFace.mat using Guid(978bbcf5050244f1b95128c04103f628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e423730f99d26c980b8a794eda632c78') in 0.070364 seconds
-  Import took 0.073861 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001738 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/InvisibleFace.mat
-  artifactKey: Guid(978bbcf5050244f1b95128c04103f628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/InvisibleFace.mat using Guid(978bbcf5050244f1b95128c04103f628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e423730f99d26c980b8a794eda632c78') in 0.007735 seconds
-  Import took 0.010936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.220088 seconds.
-  path: Assets/Thirdparty/WeaponPack/Models/pistol.obj
-  artifactKey: Guid(0ca5b5bf3e2ce67418f4f8882a48867f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/WeaponPack/Models/pistol.obj using Guid(0ca5b5bf3e2ce67418f4f8882a48867f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115859608a8447cb384c0aa0524989a4') in 0.102291 seconds
-  Import took 0.105299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Thirdparty/WeaponPack/Models/machinegunLauncher.obj
-  artifactKey: Guid(8586496aa19898344b01d03e0c48754c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/WeaponPack/Models/machinegunLauncher.obj using Guid(8586496aa19898344b01d03e0c48754c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3ab1c632b35ca938d21ebab3bcb957') in 0.085089 seconds
-  Import took 0.087981 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Thirdparty/WeaponPack/Models/knifeRound_sharp.obj
-  artifactKey: Guid(7705dbba447fe89498621f99aca8a13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/WeaponPack/Models/knifeRound_sharp.obj using Guid(7705dbba447fe89498621f99aca8a13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ea8685b7f1f894b4919a8751d4df21') in 0.077191 seconds
-  Import took 0.080083 seconds .
+  Time since last request: 0.000220 seconds.
+  path: Assets/Thirdparty/Weapons/grenade_vintage.obj
+  artifactKey: Guid(d2b5d7c14436f1442ac16d0dfd0c8759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Weapons/grenade_vintage.obj using Guid(d2b5d7c14436f1442ac16d0dfd0c8759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b82451036e6cbb0c42fec21cad18bf') in 0.101069 seconds
+  Import took 0.103530 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000203 seconds.
-  path: Assets/Thirdparty/WeaponPack/Models/pistolSilencer.obj
-  artifactKey: Guid(127f80fdc0845c446a91e4109ce0d0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/WeaponPack/Models/pistolSilencer.obj using Guid(127f80fdc0845c446a91e4109ce0d0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd458f9d2bf1d2cb3901bd08bb4b3492') in 0.120586 seconds
-  Import took 0.123912 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Thirdparty/WeaponPack/Models/uziGold.obj
-  artifactKey: Guid(b3effedc830238648b72782fab27bb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/WeaponPack/Models/uziGold.obj using Guid(b3effedc830238648b72782fab27bb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5829bd7cb8941b69f49c3f0b3201b3c4') in 0.225549 seconds
-  Import took 0.228815 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Thirdparty/WeaponPack/Models/uziLong.obj
-  artifactKey: Guid(7a0e41001d7662f4fbde8043807f2681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/WeaponPack/Models/uziLong.obj using Guid(7a0e41001d7662f4fbde8043807f2681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c5a4d6d877114c01abad6368adc020') in 0.087510 seconds
-  Import took 0.090510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Thirdparty/WeaponPack/Models/uzi.obj
-  artifactKey: Guid(97c534b8ee226e348a2faea5c3958700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/WeaponPack/Models/uzi.obj using Guid(97c534b8ee226e348a2faea5c3958700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec4a6d29dc9f7ff5c5af07aa2b97c21') in 0.066924 seconds
-  Import took 0.069953 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Thirdparty/WeaponPack/Models/uziSilencer.obj
-  artifactKey: Guid(560d6dbae4e158a418ec2685b3777879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/WeaponPack/Models/uziSilencer.obj using Guid(560d6dbae4e158a418ec2685b3777879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e5dd1f5551db3db0fdcf06265cbcc2') in 0.074472 seconds
-  Import took 0.077607 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Thirdparty/WeaponPack/Models/knifeRound_sharp.obj
-  artifactKey: Guid(7705dbba447fe89498621f99aca8a13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/WeaponPack/Models/knifeRound_sharp.obj using Guid(7705dbba447fe89498621f99aca8a13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ea8685b7f1f894b4919a8751d4df21') in 0.036734 seconds
-  Import took 0.039714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Thirdparty/WeaponPack/Models/sniper.obj
-  artifactKey: Guid(99c5980594ebde84dba867dd14fd5ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/WeaponPack/Models/sniper.obj using Guid(99c5980594ebde84dba867dd14fd5ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e708500120fa67bd1ae47f1c802025') in 0.087043 seconds
-  Import took 0.090514 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Thirdparty/Weapons/Materials/Gray8.mat
-  artifactKey: Guid(e86c377702aa20748ac223d70f899dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Weapons/Materials/Gray8.mat using Guid(e86c377702aa20748ac223d70f899dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062acf6cc749c87ee01953762295384d') in 0.034955 seconds
-  Import took 0.038415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/Thirdparty/WeaponPack/Models/sniperCamo.obj
-  artifactKey: Guid(8673cd17a71ada449bd8c556d9730772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/WeaponPack/Models/sniperCamo.obj using Guid(8673cd17a71ada449bd8c556d9730772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80c234be1029ff70148719bec3a7a4c') in 0.092210 seconds
-  Import took 0.095975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Thirdparty/WeaponPack/Models/knifeRound_smooth.obj
-  artifactKey: Guid(c05b8e30534a80f43be72ef94d29f302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/WeaponPack/Models/knifeRound_smooth.obj using Guid(c05b8e30534a80f43be72ef94d29f302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb78eee7b398dc77219b4dcb7818318') in 0.080932 seconds
-  Import took 0.084128 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Thirdparty/WeaponPack/Models/uziLongSilencer.obj
-  artifactKey: Guid(93e631fe5c717a3469677139a9990882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/WeaponPack/Models/uziLongSilencer.obj using Guid(93e631fe5c717a3469677139a9990882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd647678eb6e005775cc7a401be1a5799') in 0.106970 seconds
-  Import took 0.109742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.156260 seconds.
-  path: Assets/Thirdparty/Weapons/Materials/Gray6.mat
-  artifactKey: Guid(1aa329960fc39aa4490b3a9e7e965fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Weapons/Materials/Gray6.mat using Guid(1aa329960fc39aa4490b3a9e7e965fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3c39499c30e32108371155b0890d2b') in 0.030913 seconds
-  Import took 0.034823 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.272635 seconds.
-  path: Assets/Thirdparty/Weapons/Materials/Gray5.mat
-  artifactKey: Guid(6f06e318c92984042a9074c734738fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Weapons/Materials/Gray5.mat using Guid(6f06e318c92984042a9074c734738fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b2850c968a560448af47fc04f680ef') in 0.064036 seconds
-  Import took 0.067731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.171789 seconds.
-  path: Assets/Thirdparty/Weapons/Materials/Gray4.mat
-  artifactKey: Guid(36f616b823d57714b97b12b9319c9db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Weapons/Materials/Gray4.mat using Guid(36f616b823d57714b97b12b9319c9db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c280a5499e89e5993429907de545ce68') in 0.043223 seconds
-  Import took 0.046796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.196719 seconds.
-  path: Assets/Thirdparty/Weapons/Materials/Gray3.mat
-  artifactKey: Guid(2fbdfdb38a44c4843b0cf280bf2f52c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Weapons/Materials/Gray3.mat using Guid(2fbdfdb38a44c4843b0cf280bf2f52c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a71bd6d494d36aae560badbfdb418f') in 0.058442 seconds
-  Import took 0.061872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.192656 seconds.
-  path: Assets/Thirdparty/Weapons/Materials/Gold.mat
-  artifactKey: Guid(1eb64454235a88445b27868a75388ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Weapons/Materials/Gold.mat using Guid(1eb64454235a88445b27868a75388ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96153c91a0e63d5d1def650014a59c82') in 0.042606 seconds
-  Import took 0.045527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.223117 seconds.
-  path: Packages/com.unity.progrids/Font/Asap-Regular-ProGrids.otf
-  artifactKey: Guid(79008363f1983ec4088c4588c6f0a7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.progrids/Font/Asap-Regular-ProGrids.otf using Guid(79008363f1983ec4088c4588c6f0a7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6addd48b6ff86b597f65d00f4dd03830') in 0.133176 seconds
-  Import took 0.136152 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Thirdparty/Weapons/Materials/FrontColor.mat
-  artifactKey: Guid(ce52ee3f2bf219949a94cf7c2bceedf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Weapons/Materials/FrontColor.mat using Guid(ce52ee3f2bf219949a94cf7c2bceedf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ece0a317b5953c3a8b1cb93bfbfc682') in 0.028143 seconds
-  Import took 0.031477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.066555 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/FacePickerHDRP.mat
-  artifactKey: Guid(a53ef0dd76f2fe74eb5f43267d7c0195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/FacePickerHDRP.mat using Guid(a53ef0dd76f2fe74eb5f43267d7c0195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31487bc66166034948ea37dd73f637f') in 0.022751 seconds
-  Import took 0.025568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Packages/com.unity.progrids/Font/Asap-Medium-ProGrids.otf
-  artifactKey: Guid(8c2220bd5fd560c4297e93c4c66a2ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.progrids/Font/Asap-Medium-ProGrids.otf using Guid(8c2220bd5fd560c4297e93c4c66a2ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10407a8681df74d102e9653ec25d7bc7') in 0.055597 seconds
-  Import took 0.058357 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/FacePicker.mat
-  artifactKey: Guid(5695904020f064fdab5ad265b274a616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/FacePicker.mat using Guid(5695904020f064fdab5ad265b274a616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf46708a1977ddf13ae855a030df223') in 0.013762 seconds
-  Import took 0.016947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/EdgePickerHDRP.mat
-  artifactKey: Guid(980c24c5a501a9a429356d191ad356a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/EdgePickerHDRP.mat using Guid(980c24c5a501a9a429356d191ad356a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505516c62984721600d420af245da03f') in 0.020830 seconds
-  Import took 0.024103 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/EdgePicker.mat
-  artifactKey: Guid(4ff996e3a0a5743a3987ab6231160665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/EdgePicker.mat using Guid(4ff996e3a0a5743a3987ab6231160665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab062574189633293f83ce485c3186d') in 0.019220 seconds
-  Import took 0.023071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.175197 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/Collider.mat
-  artifactKey: Guid(bbb235fff4f48426b863b36058ab66d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/Collider.mat using Guid(bbb235fff4f48426b863b36058ab66d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d23b7bc15b0e539ad649d0f6960ef61') in 0.049404 seconds
-  Import took 0.053277 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.213813 seconds.
-  path: Assets/Thirdparty/Weapons/Materials/Cobalt.mat
-  artifactKey: Guid(979617380828bb145b74b4358d5ecd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Weapons/Materials/Cobalt.mat using Guid(979617380828bb145b74b4358d5ecd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced6ab7b371e6834d22734a97cb13f33') in 0.029447 seconds
-  Import took 0.032410 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.042992 seconds.
-  path: Packages/com.unity.probuilder/Content/Material/Checker.mat
-  artifactKey: Guid(4717b199010ca4cb3a8a7a465ec457d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Material/Checker.mat using Guid(4717b199010ca4cb3a8a7a465ec457d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601f508b6c1d6077873ec0f89e76170d') in 0.061211 seconds
-  Import took 0.064474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Thirdparty/Weapons/Materials/Chipboard.mat
-  artifactKey: Guid(f507cb75df1a2d54fa54b32d9989ff65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Weapons/Materials/Chipboard.mat using Guid(f507cb75df1a2d54fa54b32d9989ff65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad701b9f45ba679b1892361d9a176ae7') in 0.031583 seconds
-  Import took 0.034500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Packages/com.unity.probuilder/Content/Material/Checker.mat
-  artifactKey: Guid(4717b199010ca4cb3a8a7a465ec457d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Material/Checker.mat using Guid(4717b199010ca4cb3a8a7a465ec457d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601f508b6c1d6077873ec0f89e76170d') in 0.012388 seconds
-  Import took 0.015668 seconds .
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/rocketlauncherSide.png
+  artifactKey: Guid(6dd0e5936c1e0374c923c5dcc0e910f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/rocketlauncherSide.png using Guid(6dd0e5936c1e0374c923c5dcc0e910f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850525bbb6a4d8cfa028caaf7a80bb85') in 0.071198 seconds
+  Import took 0.073655 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000223 seconds.
-  path: Assets/Thirdparty/Weapons/Materials/Chipboard.mat
-  artifactKey: Guid(f507cb75df1a2d54fa54b32d9989ff65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Weapons/Materials/Chipboard.mat using Guid(f507cb75df1a2d54fa54b32d9989ff65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad701b9f45ba679b1892361d9a176ae7') in 0.012553 seconds
-  Import took 0.015810 seconds .
+  path: Assets/Thirdparty/Weapons/ammo_machinegunLauncher.obj
+  artifactKey: Guid(cbd317d478b25594cb68876ae3b30387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Weapons/ammo_machinegunLauncher.obj using Guid(cbd317d478b25594cb68876ae3b30387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d6c316a22e28c19e5e6f5555fda784') in 0.111578 seconds
+  Import took 0.114331 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.154715 seconds.
-  path: Assets/Thirdparty/Weapons/Materials/Brick_Red.mat
-  artifactKey: Guid(a11822dec1213ea4a9275adada7f262f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Weapons/Materials/Brick_Red.mat using Guid(a11822dec1213ea4a9275adada7f262f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943511cd7ef713bd4d675d0f10ad2de2') in 0.033403 seconds
-  Import took 0.037204 seconds .
+  Time since last request: 0.000218 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/pistol.png
+  artifactKey: Guid(69d455c19c587f142ae3122c7af2ca47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/pistol.png using Guid(69d455c19c587f142ae3122c7af2ca47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4cc607c9ef70c38bc0a2afab150274') in 0.135746 seconds
+  Import took 0.138249 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Thirdparty/Weapons/Materials/Brown.mat
-  artifactKey: Guid(b6b260a22f09ace4e9db64087819923f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Weapons/Materials/Brown.mat using Guid(b6b260a22f09ace4e9db64087819923f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8910fe2bc5698bddca5ff1af6bb9e3d1') in 0.019877 seconds
-  Import took 0.023067 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000968 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.772 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1489 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.8 MB.
-System memory in use after: 76.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2017.
-Total: 3.353600 ms (FindLiveObjects: 0.220900 ms CreateObjectMapping: 0.049100 ms MarkObjects: 2.892400 ms  DeleteObjects: 0.189400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000964 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.947 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1489 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.9 MB.
-System memory in use after: 77.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2020.
-Total: 2.376400 ms (FindLiveObjects: 0.193900 ms CreateObjectMapping: 0.039500 ms MarkObjects: 2.078200 ms  DeleteObjects: 0.063700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000866 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.978 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1489 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.9 MB.
-System memory in use after: 77.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2023.
-Total: 2.755000 ms (FindLiveObjects: 0.182700 ms CreateObjectMapping: 0.037100 ms MarkObjects: 2.453600 ms  DeleteObjects: 0.080400 ms)
+  Time since last request: 0.000274 seconds.
+  path: Assets/Thirdparty/Weapons/ammo_shotgun.obj
+  artifactKey: Guid(43b8c7ada695b7f45a45d997db8243d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Weapons/ammo_shotgun.obj using Guid(43b8c7ada695b7f45a45d997db8243d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e099abec235b55662ba2585eca9fe54') in 0.061911 seconds
+  Import took 0.064758 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9859.986191 seconds.
-  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts
-  artifactKey: Guid(1f545d0b97525424eb52e33ae79e86cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts using Guid(1f545d0b97525424eb52e33ae79e86cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08c52fea3b822c755f1bd03dd07ebd0') in 0.016932 seconds
-  Import took 0.020028 seconds .
+  Time since last request: 0.000268 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/ammo_rocket.png
+  artifactKey: Guid(451e20625e04e4542ad209fe47a739f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/ammo_rocket.png using Guid(451e20625e04e4542ad209fe47a739f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58e970e663d8d93dd63abe08906b868') in 0.096787 seconds
+  Import took 0.099574 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.668521 seconds.
-  path: Assets/Scripts/NewBehaviourScript.cs
-  artifactKey: Guid(e352971f1634b6a4b8de764010278ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NewBehaviourScript.cs using Guid(e352971f1634b6a4b8de764010278ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ef7eb4aeaec5281f6e92769f3c4111') in 0.308642 seconds
-  Import took 0.311221 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000870 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.980 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1489 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.9 MB.
-System memory in use after: 77.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2026.
-Total: 5.882100 ms (FindLiveObjects: 0.513000 ms CreateObjectMapping: 0.181800 ms MarkObjects: 4.745400 ms  DeleteObjects: 0.439500 ms)
+  Time since last request: 0.000242 seconds.
+  path: Assets/Thirdparty/Weapons/ammo_machinegun.obj
+  artifactKey: Guid(f6f9cbe8c064c444eb97e80e2d2135e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Weapons/ammo_machinegun.obj using Guid(f6f9cbe8c064c444eb97e80e2d2135e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7febd1f003499f34c5873ed568032575') in 0.112820 seconds
+  Import took 0.115474 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.245193 seconds.
-  path: Assets/Scripts/Interactable.cs
-  artifactKey: Guid(ea7b9280d9aae1b4e857887facc9e9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Interactable.cs using Guid(ea7b9280d9aae1b4e857887facc9e9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a095647114c0451c45ff730a544c130e') in 0.022166 seconds
-  Import took 0.026233 seconds .
+  Time since last request: 0.000252 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/knifeRound_smooth.png
+  artifactKey: Guid(0d0afcfe4b88a1d4c84458c390f82e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/knifeRound_smooth.png using Guid(0d0afcfe4b88a1d4c84458c390f82e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b264a47bbd5cc88f7077da6ceb2b21') in 0.060092 seconds
+  Import took 0.063067 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Scripts/Level1.cs
-  artifactKey: Guid(4489380029e5fee4483d9865545b3d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Level1.cs using Guid(4489380029e5fee4483d9865545b3d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64fdcb5070bb0e614e43bb0b49dcc86') in 0.013135 seconds
-  Import took 0.015377 seconds .
+  Time since last request: 0.000195 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/flamethrower.png
+  artifactKey: Guid(dedc560d081179542bfa8d94764e3ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/flamethrower.png using Guid(dedc560d081179542bfa8d94764e3ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07dce2fc3df1a6485cc1ef3c502b396') in 0.036328 seconds
+  Import took 0.038759 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 312.754085 seconds.
-  path: Assets/Scripts/View Frustrum.cs
-  artifactKey: Guid(9e406b351650af246b214da34be9cbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/View Frustrum.cs using Guid(9e406b351650af246b214da34be9cbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658684b9f9592ff5875bba45bb9942d3') in 0.007653 seconds
-  Import took 0.011490 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000834 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.995 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.0 MB.
-System memory in use after: 77.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2030.
-Total: 2.362000 ms (FindLiveObjects: 0.200400 ms CreateObjectMapping: 0.046000 ms MarkObjects: 2.049300 ms  DeleteObjects: 0.064900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000866 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.958 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1489 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.9 MB.
-System memory in use after: 77.0 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2032.
-Total: 2.258500 ms (FindLiveObjects: 0.190800 ms CreateObjectMapping: 0.037100 ms MarkObjects: 1.962700 ms  DeleteObjects: 0.067000 ms)
+  Time since last request: 0.000216 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/shotgun.png
+  artifactKey: Guid(5957eb6fa90e03243bc5a584bf8c1b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/shotgun.png using Guid(5957eb6fa90e03243bc5a584bf8c1b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f507649b5bb2f5bc3e3da9b5abc997') in 0.035245 seconds
+  Import took 0.037865 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.148830 seconds.
-  path: Assets/Scripts/ViewFrustrum.cs
-  artifactKey: Guid(1cf5058b525f9c34e93ba9aaad3ff1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ViewFrustrum.cs using Guid(1cf5058b525f9c34e93ba9aaad3ff1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3fe45148b46d40204e5f05573f482fa') in 0.008920 seconds
-  Import took 0.012379 seconds .
+  Time since last request: 0.000209 seconds.
+  path: Assets/Thirdparty/Weapons/ammo_uzi.obj
+  artifactKey: Guid(b58193cc034d80546a969612b95ccf0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Weapons/ammo_uzi.obj using Guid(b58193cc034d80546a969612b95ccf0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59ef97b104e0927d76d3e8a457c9077') in 0.129481 seconds
+  Import took 0.132400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/grenadeVintage.png
+  artifactKey: Guid(1b292e8b652eb4e48bbf72cf8c048a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/grenadeVintage.png using Guid(1b292e8b652eb4e48bbf72cf8c048a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b618b009e0e5939423ebaf163e45818') in 0.030488 seconds
+  Import took 0.033069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Thirdparty/Weapons/grenade.obj
+  artifactKey: Guid(18d1c85abd1a9e047a7c8d371a533184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Weapons/grenade.obj using Guid(18d1c85abd1a9e047a7c8d371a533184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd6c9d134f2d30a47e615b16945844a') in 0.061298 seconds
+  Import took 0.064024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Thirdparty/Weapons/ammo_rocket.obj
+  artifactKey: Guid(f004b602fcc6f6e4aa5b75fc0a550467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Weapons/ammo_rocket.obj using Guid(f004b602fcc6f6e4aa5b75fc0a550467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6c6292d363896991f7bf4614387ed0') in 0.103906 seconds
+  Import took 0.106983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/knifeRound_sharp.png
+  artifactKey: Guid(c796d1df400fb6642a290eff34fdf9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/knifeRound_sharp.png using Guid(c796d1df400fb6642a290eff34fdf9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97317790c5ef9159c6cfbf703fb7d30e') in 0.026063 seconds
+  Import took 0.028808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/grenade.png
+  artifactKey: Guid(701aee1b363ee6b42b1e51922b62a227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/grenade.png using Guid(701aee1b363ee6b42b1e51922b62a227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e32edb017fcfd05e31bb14d7c7d1d4') in 0.043035 seconds
+  Import took 0.045891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/knife_sharp.png
+  artifactKey: Guid(44c1349e3f4aa614dae72ca3a4089201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/knife_sharp.png using Guid(44c1349e3f4aa614dae72ca3a4089201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74848f3153e024d06989ac0a3554bbf') in 0.096893 seconds
+  Import took 0.099426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/ammo_machinegunLauncher.png
+  artifactKey: Guid(9bbc26c728f484e4aa6037d339d9d58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/ammo_machinegunLauncher.png using Guid(9bbc26c728f484e4aa6037d339d9d58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da929480090cf16225b1086fdb03235') in 0.060821 seconds
+  Import took 0.063461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/ammo_machinegun.png
+  artifactKey: Guid(9436b08714cb8b846b71d062df47b322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/ammo_machinegun.png using Guid(9436b08714cb8b846b71d062df47b322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3230ccbb75d2361deea027ef1de548dd') in 0.053157 seconds
+  Import took 0.055690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/ammo_rocketModern.png
+  artifactKey: Guid(0b230c6a7703f9d4188b4ad00e74860d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/ammo_rocketModern.png using Guid(0b230c6a7703f9d4188b4ad00e74860d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5011560b7e8cf8155f165a22ee5186') in 0.042736 seconds
+  Import took 0.045262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/ammo_uzi.png
+  artifactKey: Guid(c0e7779e2eeff6145a3b0a1d87524945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/ammo_uzi.png using Guid(c0e7779e2eeff6145a3b0a1d87524945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e805e462bc5eab283f8eea677bddfa0a') in 0.019170 seconds
+  Import took 0.022272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/knife_smooth.png
+  artifactKey: Guid(e061fb9d35cd23c4aaf176f672e2dcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/knife_smooth.png using Guid(e061fb9d35cd23c4aaf176f672e2dcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3912d348ae039647c5bc049714d2771c') in 0.030905 seconds
+  Import took 0.033795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/ammo_shotgun.png
+  artifactKey: Guid(8454391b81f48d54796f2876e77fdf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/ammo_shotgun.png using Guid(8454391b81f48d54796f2876e77fdf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aba96af41fca147ee40df9d7dcd5786') in 0.032315 seconds
+  Import took 0.035092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/machinegun.png
+  artifactKey: Guid(b16c4ce816e6f1a42a124cbdcded0587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/machinegun.png using Guid(b16c4ce816e6f1a42a124cbdcded0587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0e69ac67419029c4bbedb1d1f7d80a') in 0.065674 seconds
+  Import took 0.068491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Thirdparty/Weapons/flamethrowerHandle.obj
+  artifactKey: Guid(ba71d5398907d994192cf0cc9c83c088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Weapons/flamethrowerHandle.obj using Guid(ba71d5398907d994192cf0cc9c83c088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453aaf9b7f972d216b467217a49c5034') in 0.066072 seconds
+  Import took 0.069213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Scripts/Weapons/Rifle.cs
+  artifactKey: Guid(a567247a5f0236b428ebd215969af2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Weapons/Rifle.cs using Guid(a567247a5f0236b428ebd215969af2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fdd9e72b2aa5e7b49bcb74a80ce2bdf') in 0.006459 seconds
+  Import took 0.009487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/shotgunShort.png
+  artifactKey: Guid(a1786cf9f2a8d05489201201191aadf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/shotgunShort.png using Guid(a1786cf9f2a8d05489201201191aadf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c23376ef7b5372e19be7d7d9086e0c3') in 0.106524 seconds
+  Import took 0.109576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/ammo_pistol.png
+  artifactKey: Guid(c977133d26b60e64caa572b58f9fd9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/ammo_pistol.png using Guid(c977133d26b60e64caa572b58f9fd9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a021725ffe1614291ce2030bf09697') in 0.045590 seconds
+  Import took 0.049275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Thirdparty/Weapons/ammo_pistol.obj
+  artifactKey: Guid(93375713b9d6e4a4ab7099069b571d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Weapons/ammo_pistol.obj using Guid(93375713b9d6e4a4ab7099069b571d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e8e84cce0a17493f4eb0252d572534') in 0.046093 seconds
+  Import took 0.049232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/pistolSilencer.png
+  artifactKey: Guid(fccc67dd8f36cbf47aba1185e33ecd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/pistolSilencer.png using Guid(fccc67dd8f36cbf47aba1185e33ecd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e747e0955f7d9473bafced11af06204d') in 0.025720 seconds
+  Import took 0.028745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Thirdparty/Weapons/ammo_rocketModern.obj
+  artifactKey: Guid(40d5093c2a9d61046b66648017192aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Weapons/ammo_rocketModern.obj using Guid(40d5093c2a9d61046b66648017192aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb47db4c8fffa5a13a3be0eae03fe52') in 0.065530 seconds
+  Import took 0.068636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Thirdparty/Weapons/ammo_sniper.obj
+  artifactKey: Guid(44ed05d4928407647919ada74e06fc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Weapons/ammo_sniper.obj using Guid(44ed05d4928407647919ada74e06fc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c657cdd3f8dc68b5571949e887f751') in 0.067461 seconds
+  Import took 0.070230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/ammo_sniper.png
+  artifactKey: Guid(462e3cf70865a7e4ab8ebf98fb4508d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/ammo_sniper.png using Guid(462e3cf70865a7e4ab8ebf98fb4508d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29982ed91eb8eaeaf5c208bf7e6ea5e1') in 0.038657 seconds
+  Import took 0.041246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.508680 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor
+  artifactKey: Guid(eb38beb5b388cff4c81d97f7d8acc562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor using Guid(eb38beb5b388cff4c81d97f7d8acc562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9905987d452c5fcb3c8d238d5fddfe92') in 0.068130 seconds
+  Import took 0.071747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.457925 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/DClamp_02_snaps002.prefab
+  artifactKey: Guid(3e8a4d075f30b3b478dfb7a20f36e41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/DClamp_02_snaps002.prefab using Guid(3e8a4d075f30b3b478dfb7a20f36e41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3805b4270752418795ce258c4523e8') in 0.269267 seconds
+  Import took 0.272763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/GuardRail_02_End_snaps002.prefab
+  artifactKey: Guid(8ec4bc96866a5bb4f90106a29dfd3d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/GuardRail_02_End_snaps002.prefab using Guid(8ec4bc96866a5bb4f90106a29dfd3d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3a65491c2b97df57ba6bbeb6f4f85e') in 0.099576 seconds
+  Import took 0.102998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Generator_01_snaps002.prefab
+  artifactKey: Guid(ee291aa36cc91a34bb83babb65b717db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Generator_01_snaps002.prefab using Guid(ee291aa36cc91a34bb83babb65b717db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e028a69bfb4bfcb2fb737ae6c4b2a6') in 0.115552 seconds
+  Import took 0.118289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Bolton_M_01_snaps002.prefab
+  artifactKey: Guid(34109158f4c07db4eaccadadcf4e10e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Bolton_M_01_snaps002.prefab using Guid(34109158f4c07db4eaccadadcf4e10e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04182af85a48b6198d7edfdb41916363') in 0.092003 seconds
+  Import took 0.094563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/CapShock_M_01_snaps002.prefab
+  artifactKey: Guid(cec8525009a9342498bf9a8dfc7de1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/CapShock_M_01_snaps002.prefab using Guid(cec8525009a9342498bf9a8dfc7de1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6245e3e065dc5075d34c0b73a245a348') in 0.059613 seconds
+  Import took 0.062766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Bolton_S_01_snaps002.prefab
+  artifactKey: Guid(d0dda10dd211d514299c0d89644d400e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Bolton_S_01_snaps002.prefab using Guid(d0dda10dd211d514299c0d89644d400e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af61bc4169ea285aa490323910b1386') in 0.026892 seconds
+  Import took 0.029561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/CabelCover_03_snaps002.prefab
+  artifactKey: Guid(d98c873374e2a244abcd85262a0b32fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/CabelCover_03_snaps002.prefab using Guid(d98c873374e2a244abcd85262a0b32fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796273ab689b48731bbfbde7a4c03fbc') in 0.041942 seconds
+  Import took 0.044533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/CapShock_M_04_snaps002.prefab
+  artifactKey: Guid(15c061b842016b34f9a0c3a282b13008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/CapShock_M_04_snaps002.prefab using Guid(15c061b842016b34f9a0c3a282b13008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd1e5cd426ef548795a2f477fa5d8ea') in 0.069708 seconds
+  Import took 0.072440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Gen_Part_03_snaps002.prefab
+  artifactKey: Guid(f70873036059b2d40bf09f145ff0d614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Gen_Part_03_snaps002.prefab using Guid(f70873036059b2d40bf09f145ff0d614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52ac58b4ca0a8e034fedc488dd68e7f') in 0.028535 seconds
+  Import took 0.031340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Frame_01_Bevel_snaps002.prefab
+  artifactKey: Guid(1d1d901d626eb5649af60f0b9f678e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Frame_01_Bevel_snaps002.prefab using Guid(1d1d901d626eb5649af60f0b9f678e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e6fda12f3854189ea9a3ae098e6ece') in 0.029795 seconds
+  Import took 0.032857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/FrameBox_snaps002.prefab
+  artifactKey: Guid(d780078da71ef864ea6d55117fdce058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/FrameBox_snaps002.prefab using Guid(d780078da71ef864ea6d55117fdce058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10ffda41f1288e5abb9a6bb93fe55aa') in 0.058493 seconds
+  Import took 0.061276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/GuardRail_02_Plugs_snaps002.prefab
+  artifactKey: Guid(e16bbcb55b8cc1547828240ad568589f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/GuardRail_02_Plugs_snaps002.prefab using Guid(e16bbcb55b8cc1547828240ad568589f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ee2e4bf70211318f2c7587c01c130c') in 0.058695 seconds
+  Import took 0.062793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/DClamp_03_snaps002.prefab
+  artifactKey: Guid(321181fb43eff3647929654b85eb8bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/DClamp_03_snaps002.prefab using Guid(321181fb43eff3647929654b85eb8bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc387abe16124113f0c18b865f663b6e') in 0.053389 seconds
+  Import took 0.056248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Conduit_M_02_snaps002.prefab
+  artifactKey: Guid(8301ea8c6c341e44c9cd35fb6f2e1428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Conduit_M_02_snaps002.prefab using Guid(8301ea8c6c341e44c9cd35fb6f2e1428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10086beeb684b37752f91eb555bc4ecd') in 0.106452 seconds
+  Import took 0.109419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Bolton_M_02_snaps002.prefab
+  artifactKey: Guid(e3ae7ef1c7cc88c4c818f241494b9639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Bolton_M_02_snaps002.prefab using Guid(e3ae7ef1c7cc88c4c818f241494b9639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b77ae511ee515a258abcfa89b0f4f0') in 0.024606 seconds
+  Import took 0.027530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Gen_Part_04_snaps002.prefab
+  artifactKey: Guid(02c19b863feda5b45bcb19319bc3248f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Gen_Part_04_snaps002.prefab using Guid(02c19b863feda5b45bcb19319bc3248f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4726c12bb5f867567e1d7a7c95853044') in 0.074734 seconds
+  Import took 0.077525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Bolton_M_03_snaps002.prefab
+  artifactKey: Guid(3f2079bea2fbaae40a0d35e362897421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Bolton_M_03_snaps002.prefab using Guid(3f2079bea2fbaae40a0d35e362897421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647f7bbef12fb3400e572b89b3582f5e') in 0.039715 seconds
+  Import took 0.042526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/CapShock_M_03_snaps002.prefab
+  artifactKey: Guid(b62f6c4e046abad4e9c399cfc1cdebae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/CapShock_M_03_snaps002.prefab using Guid(b62f6c4e046abad4e9c399cfc1cdebae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707a28d43fbcf39d9d3eb7751989f256') in 0.072846 seconds
+  Import took 0.075708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Conduit_M_03_snaps002.prefab
+  artifactKey: Guid(059bdfbd9c1d51549adab56027155ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Conduit_M_03_snaps002.prefab using Guid(059bdfbd9c1d51549adab56027155ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e14ea726cbc0ee999dd765368cbeb54') in 0.054175 seconds
+  Import took 0.056833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Frame_01_snaps002.prefab
+  artifactKey: Guid(3f20bf3af5ff9de468e139a6b234688b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Frame_01_snaps002.prefab using Guid(3f20bf3af5ff9de468e139a6b234688b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d3ad67a36f97eea93b2fb7af5f9ad3') in 0.021096 seconds
+  Import took 0.023769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Crossbar_01_snaps002.prefab
+  artifactKey: Guid(d257d2e20727fbe4f80b671a36cdd543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Crossbar_01_snaps002.prefab using Guid(d257d2e20727fbe4f80b671a36cdd543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38d8c1b37f3da5f945f3633e02576de') in 0.025175 seconds
+  Import took 0.028407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/CapShock_M_02_snaps002.prefab
+  artifactKey: Guid(d54428b49da3e2d4e866eac2d390d664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/CapShock_M_02_snaps002.prefab using Guid(d54428b49da3e2d4e866eac2d390d664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be33c97617c0125cc6cacc24c926f41c') in 0.031389 seconds
+  Import took 0.034270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Gen_Part_05_snaps002.prefab
+  artifactKey: Guid(8c9883632092308408c6567bd8f85787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Gen_Part_05_snaps002.prefab using Guid(8c9883632092308408c6567bd8f85787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c031a428d47a328deb1ceeab93130c') in 0.034332 seconds
+  Import took 0.037252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Gen_Part_01_snaps002.prefab
+  artifactKey: Guid(84773773c2703ef46b1bbeb8abaab0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Gen_Part_01_snaps002.prefab using Guid(84773773c2703ef46b1bbeb8abaab0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e564343ee8dccaffa742eab0f6c5345') in 0.132777 seconds
+  Import took 0.135365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/GuardRail_01_snaps002.prefab
+  artifactKey: Guid(8ac6c8f32a8b3114f8c36c2815f09d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/GuardRail_01_snaps002.prefab using Guid(8ac6c8f32a8b3114f8c36c2815f09d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ec771f8bede2d82baf6bc121790546') in 0.097144 seconds
+  Import took 0.099583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Gen_Part_02_snaps002.prefab
+  artifactKey: Guid(301707a524aa54d49941d5498618beae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Gen_Part_02_snaps002.prefab using Guid(301707a524aa54d49941d5498618beae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8c0408e30357368ccc95ffcb08a333') in 0.130712 seconds
+  Import took 0.150214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Conduit_M_04_snaps002.prefab
+  artifactKey: Guid(92013a4fbb8606940991197d497f999d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Conduit_M_04_snaps002.prefab using Guid(92013a4fbb8606940991197d497f999d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7c56e23722a5dabb1c0d4a6c6bb63a') in 0.153735 seconds
+  Import took 0.156202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Conduit_M_01_snaps002.prefab
+  artifactKey: Guid(defc1954bd6bc1347aa94a45192f58db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Conduit_M_01_snaps002.prefab using Guid(defc1954bd6bc1347aa94a45192f58db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8939203b93a6cf3ad807eefbd88abe54') in 0.046762 seconds
+  Import took 0.049362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/GuardRail_01_End_snaps002.prefab
+  artifactKey: Guid(b12c4c105828040468dcc041ca32ce5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/GuardRail_01_End_snaps002.prefab using Guid(b12c4c105828040468dcc041ca32ce5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1801930cc8171720541aff16649ca4ad') in 0.046503 seconds
+  Import took 0.049108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/CabelCover_02_snaps002.prefab
+  artifactKey: Guid(29af6e3703f95e74e8648b877ef2dff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/CabelCover_02_snaps002.prefab using Guid(29af6e3703f95e74e8648b877ef2dff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90cd23315428735acb573940ded12169') in 0.089645 seconds
+  Import took 0.092890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/CrossBarBox_snaps002.prefab
+  artifactKey: Guid(debcf44c265f4c746983d631b32fa707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/CrossBarBox_snaps002.prefab using Guid(debcf44c265f4c746983d631b32fa707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8e29ac9d023e1d70668dec0e40a44e') in 0.046319 seconds
+  Import took 0.048897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/CrossBar_03_snaps002.prefab
+  artifactKey: Guid(f50a4c9d72cc6c241b4e6f1a62472b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/CrossBar_03_snaps002.prefab using Guid(f50a4c9d72cc6c241b4e6f1a62472b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2dd9a113981375810ca9345a4027084') in 0.042618 seconds
+  Import took 0.045409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/CabelCover_01_snaps002.prefab
+  artifactKey: Guid(283ce326b9aea664286163278051fa9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/CabelCover_01_snaps002.prefab using Guid(283ce326b9aea664286163278051fa9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3e795eb42caff748d3e1cfef9b79ab') in 0.050917 seconds
+  Import took 0.053890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Crossbar_02_snaps002.prefab
+  artifactKey: Guid(7231588b9603215498bbcc3333b73fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Crossbar_02_snaps002.prefab using Guid(7231588b9603215498bbcc3333b73fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb006233aae573372183b5f028ced55') in 0.075139 seconds
+  Import took 0.077557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/GuardRail_01_Joint_snaps002.prefab
+  artifactKey: Guid(2620bdc8e640a444aa98776a364da7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/GuardRail_01_Joint_snaps002.prefab using Guid(2620bdc8e640a444aa98776a364da7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610e4424ea9a1868183419057fb04b1e') in 0.053769 seconds
+  Import took 0.056292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Frame_01_BevelThick_snaps002.prefab
+  artifactKey: Guid(1a3dc7a3ef9720c43b42e150e1564266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Frame_01_BevelThick_snaps002.prefab using Guid(1a3dc7a3ef9720c43b42e150e1564266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff65e9e0fa944c96040e952d6f79d0d7') in 0.117624 seconds
+  Import took 0.120255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/FrameBoxBeveled_snaps002.prefab
+  artifactKey: Guid(85180d6d1ab12d541ad50339323c6944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/FrameBoxBeveled_snaps002.prefab using Guid(85180d6d1ab12d541ad50339323c6944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dcf0d930ea7d02b20438b21c9c179fd') in 0.045648 seconds
+  Import took 0.048627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/CabelCover_04_snaps002.prefab
+  artifactKey: Guid(1eff7d4cfc072fa44a69a0ddae2cbc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/CabelCover_04_snaps002.prefab using Guid(1eff7d4cfc072fa44a69a0ddae2cbc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b1f9a985644a1d61d58015a687208a') in 0.052098 seconds
+  Import took 0.054642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.394404 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/GuardRail_02_snaps002.prefab
+  artifactKey: Guid(9a80f1159de6c8249a43aee2815a177d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/GuardRail_02_snaps002.prefab using Guid(9a80f1159de6c8249a43aee2815a177d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7dd43db248a9dfac163b674e79dd09f') in 0.080212 seconds
+  Import took 0.082963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/LootBox_01_snaps002.prefab
+  artifactKey: Guid(bdf3d5615008e324a96f6bce82a4b776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/LootBox_01_snaps002.prefab using Guid(bdf3d5615008e324a96f6bce82a4b776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a6366ad8382bb09124db3370bd9cdf') in 0.115690 seconds
+  Import took 0.118261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Pipe_M_Corner_02_snaps002.prefab
+  artifactKey: Guid(39566c1fc231155428127090e6dc14a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Pipe_M_Corner_02_snaps002.prefab using Guid(39566c1fc231155428127090e6dc14a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9608dd7840624ed12fd14f0f846c39') in 0.021152 seconds
+  Import took 0.024071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Pipe_M_Corner_01_snaps002.prefab
+  artifactKey: Guid(72de0beeba2e6bf4a9c3893b470689ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Pipe_M_Corner_01_snaps002.prefab using Guid(72de0beeba2e6bf4a9c3893b470689ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efafd82fbbc1b16ae8b4dcc8461f5f95') in 0.094026 seconds
+  Import took 0.096969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Pod_snaps002.prefab
+  artifactKey: Guid(092812366f3cfac4a9cc2d1a727ff7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Pod_snaps002.prefab using Guid(092812366f3cfac4a9cc2d1a727ff7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bcffd80521af8d4432a1f58fc10f98d') in 0.072273 seconds
+  Import took 0.075476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/PodHolder_snaps002.prefab
+  artifactKey: Guid(a1a83d2092ced8a469dab21cf6c7133b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/PodHolder_snaps002.prefab using Guid(a1a83d2092ced8a469dab21cf6c7133b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a91b0822607c3bf31d17b0a958aebf5') in 0.054294 seconds
+  Import took 0.057467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Pipe_S_Corner_snaps002.prefab
+  artifactKey: Guid(cd883448e719018428c96f034ddbf3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Pipe_S_Corner_snaps002.prefab using Guid(cd883448e719018428c96f034ddbf3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637cdcd8848138c01cc2725b3a9dc52e') in 0.039817 seconds
+  Import took 0.042279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Pipe_S_snaps002.prefab
+  artifactKey: Guid(8c39b59b8609eeb41846d53ddd3ce2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Pipe_S_snaps002.prefab using Guid(8c39b59b8609eeb41846d53ddd3ce2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77934bda5395ec44583b1407c520f76') in 0.092693 seconds
+  Import took 0.095424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Storage_01_snaps002.prefab
+  artifactKey: Guid(96bafbd921a8d1f459a26237511562e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Storage_01_snaps002.prefab using Guid(96bafbd921a8d1f459a26237511562e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186f21d910aac8c0d3ce42cbf2d582f6') in 0.091383 seconds
+  Import took 0.094573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Storage_02_snaps002.prefab
+  artifactKey: Guid(6fb3c3ccbbfe80a40a52c06a792263c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Storage_02_snaps002.prefab using Guid(6fb3c3ccbbfe80a40a52c06a792263c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd6ae9af6d0089c8956e5311afcacba') in 0.061200 seconds
+  Import took 0.063995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/LootBox_02_snaps002.prefab
+  artifactKey: Guid(d7793afbdc0cfaa40b52b9a1d5fa2aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/LootBox_02_snaps002.prefab using Guid(d7793afbdc0cfaa40b52b9a1d5fa2aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4699cc2f082f64346e256632f8ce08') in 0.048045 seconds
+  Import took 0.076435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/PowerCore_01_snaps002.prefab
+  artifactKey: Guid(cd0f18d8f0c53a14ab401ebd0214a4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/PowerCore_01_snaps002.prefab using Guid(cd0f18d8f0c53a14ab401ebd0214a4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f4a56142e9dbdb73f6dce3a9ea7467') in 0.094182 seconds
+  Import took 0.150912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Storage_03_snaps002.prefab
+  artifactKey: Guid(6f6bf2b372bf5ea43977fb96a1b11e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Storage_03_snaps002.prefab using Guid(6f6bf2b372bf5ea43977fb96a1b11e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18eed6e501c2fd24a4aa2128e53f35f0') in 0.082134 seconds
+  Import took 0.085077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Pipe_M_snaps002.prefab
+  artifactKey: Guid(4d225f970f8e37d4e820f1cb8440987b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Pipe_M_snaps002.prefab using Guid(4d225f970f8e37d4e820f1cb8440987b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80477907517affd87fe52d5b98caeb84') in 0.027433 seconds
+  Import took 0.030360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/PowerCore_02_snaps002.prefab
+  artifactKey: Guid(4a68610f59a4280429c8b2d0813fc135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/PowerCore_02_snaps002.prefab using Guid(4a68610f59a4280429c8b2d0813fc135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9319c4ce19b0eb69fd1da9bf76ae384e') in 0.096196 seconds
+  Import took 0.099046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Pipe_M_snaps002.prefab
+  artifactKey: Guid(4d225f970f8e37d4e820f1cb8440987b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/Pipe_M_snaps002.prefab using Guid(4d225f970f8e37d4e820f1cb8440987b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80477907517affd87fe52d5b98caeb84') in 0.014550 seconds
+  Import took 0.017509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/PodCab_snaps002.prefab
+  artifactKey: Guid(973473539eca4c0469c4270f108e438f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/PodCab_snaps002.prefab using Guid(973473539eca4c0469c4270f108e438f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8dbef9113b3817322b6918fb5cbfbd') in 0.039197 seconds
+  Import took 0.041925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/LootBox_01_snaps002.prefab
+  artifactKey: Guid(bdf3d5615008e324a96f6bce82a4b776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/LootBox_01_snaps002.prefab using Guid(bdf3d5615008e324a96f6bce82a4b776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a6366ad8382bb09124db3370bd9cdf') in 0.009797 seconds
+  Import took 0.012603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/SphericalObject_snaps002.prefab
+  artifactKey: Guid(58189bdcabab0a6409763539b4da1657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/SphericalObject_snaps002.prefab using Guid(58189bdcabab0a6409763539b4da1657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648276f66873fd39cb675cefd3ea5432') in 0.040513 seconds
+  Import took 0.043865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001888 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/SphericalObject_snaps002.prefab
+  artifactKey: Guid(58189bdcabab0a6409763539b4da1657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Props/SphericalObject_snaps002.prefab using Guid(58189bdcabab0a6409763539b4da1657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648276f66873fd39cb675cefd3ea5432') in 0.010147 seconds
+  Import took 0.013080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.433465 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Render/uziSilencer.png
+  artifactKey: Guid(d5d326647f87dab43be63fad29420eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Render/uziSilencer.png using Guid(d5d326647f87dab43be63fad29420eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd925cd34cd3fa2730b1f31f44a29636f') in 0.067828 seconds
+  Import took 0.070771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003723 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Render/uziSilencer.png
+  artifactKey: Guid(d5d326647f87dab43be63fad29420eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Render/uziSilencer.png using Guid(d5d326647f87dab43be63fad29420eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd925cd34cd3fa2730b1f31f44a29636f') in 0.022730 seconds
+  Import took 0.025901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.712724 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/sniper.png
+  artifactKey: Guid(f8a63e7fa2ec57c409cef95a9c8312e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/sniper.png using Guid(f8a63e7fa2ec57c409cef95a9c8312e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be97d2d89a5d43d4a95abf33a6c812c4') in 0.067164 seconds
+  Import took 0.070204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/uziLongSilencer.png
+  artifactKey: Guid(a07a5cf075912f74f94ddf8965b12f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/uziLongSilencer.png using Guid(a07a5cf075912f74f94ddf8965b12f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b038816b33ecdca020f06c5c2b81e9') in 0.043756 seconds
+  Import took 0.047424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/uziLong.png
+  artifactKey: Guid(dfdca8c8af1f4e841880bc9038494281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/uziLong.png using Guid(dfdca8c8af1f4e841880bc9038494281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2398bfa4c82147cad0a8f7b1385a98af') in 0.032344 seconds
+  Import took 0.035763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/uzi.png
+  artifactKey: Guid(c37471bc62bc7274eb6bd6cd8f491df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/uzi.png using Guid(c37471bc62bc7274eb6bd6cd8f491df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f371bfd8ae54c20a270dc4aae0864815') in 0.055069 seconds
+  Import took 0.058452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/uziSilencer.png
+  artifactKey: Guid(361ccee62d5cf214a8eefc0021890a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/uziSilencer.png using Guid(361ccee62d5cf214a8eefc0021890a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8281901cd39adcb83175c2d4c27b33') in 0.030580 seconds
+  Import took 0.033787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001380 seconds.
+  path: Assets/Thirdparty/WeaponPack/Sprites/Silhouette/uziSilencer.png
+  artifactKey: Guid(361ccee62d5cf214a8eefc0021890a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack/Sprites/Silhouette/uziSilencer.png using Guid(361ccee62d5cf214a8eefc0021890a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8281901cd39adcb83175c2d4c27b33') in 0.006626 seconds
+  Import took 0.009669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 219.659030 seconds.
+  path: Assets/Thirdparty/AssetStoreOriginals
+  artifactKey: Guid(f0433d35c34fa824da8f7ae0b54ee49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/AssetStoreOriginals using Guid(f0433d35c34fa824da8f7ae0b54ee49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d047c94492935701142ac1a61132f6') in 0.008079 seconds
+  Import took 0.023780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.328834 seconds.
+  path: Assets/Thirdparty/WeaponPack
+  artifactKey: Guid(f6a816b25cd1cf1408fa018627f0cd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/WeaponPack using Guid(f6a816b25cd1cf1408fa018627f0cd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea694363622f44666d9b00ae097d9f26') in 0.006439 seconds
+  Import took 0.079348 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000882 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.950 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.0 MB.
-System memory in use after: 77.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2036.
-Total: 2.380300 ms (FindLiveObjects: 0.204600 ms CreateObjectMapping: 0.046400 ms MarkObjects: 2.059900 ms  DeleteObjects: 0.067900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000809 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.957 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.0 MB.
-System memory in use after: 77.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2039.
-Total: 3.318400 ms (FindLiveObjects: 0.232300 ms CreateObjectMapping: 0.040100 ms MarkObjects: 2.967000 ms  DeleteObjects: 0.077600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000891 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.959 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.0 MB.
-System memory in use after: 77.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2042.
-Total: 2.418700 ms (FindLiveObjects: 0.198300 ms CreateObjectMapping: 0.037200 ms MarkObjects: 1.984400 ms  DeleteObjects: 0.197600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000923 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.010 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.0 MB.
-System memory in use after: 77.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2045.
-Total: 2.467600 ms (FindLiveObjects: 0.169400 ms CreateObjectMapping: 0.039500 ms MarkObjects: 2.061800 ms  DeleteObjects: 0.195900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000878 seconds.
+Registered in 0.000920 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
@@ -906,26 +1028,50 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.961 seconds
+- Completed reload, in  0.965 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.0 MB.
-System memory in use after: 77.1 MB.
+Unloading 1495 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2048.
-Total: 12.757800 ms (FindLiveObjects: 0.198500 ms CreateObjectMapping: 0.039100 ms MarkObjects: 2.093600 ms  DeleteObjects: 10.424900 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2012.
+Total: 2.369300 ms (FindLiveObjects: 0.180900 ms CreateObjectMapping: 0.035700 ms MarkObjects: 2.049900 ms  DeleteObjects: 0.101400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 614.771071 seconds.
+  path: Assets/Scripts/Interactable.cs
+  artifactKey: Guid(ea7b9280d9aae1b4e857887facc9e9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interactable.cs using Guid(ea7b9280d9aae1b4e857887facc9e9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54a73b75f3c4ed2890d46efa096dee6') in 0.015060 seconds
+  Import took 0.017851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.618576 seconds.
+  path: Assets/Scripts/Interaction.cs
+  artifactKey: Guid(2c91f61a707148e49b1cb6e0e2946887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interaction.cs using Guid(2c91f61a707148e49b1cb6e0e2946887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fba325d895de44825fc6c659663ad9') in 0.013316 seconds
+  Import took 0.016016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.816419 seconds.
+  path: Assets/Scripts/OuterBox.cs
+  artifactKey: Guid(6733d196c20929c40bb672ab4648012f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OuterBox.cs using Guid(6733d196c20929c40bb672ab4648012f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08e6208b957c8af26d59d2767a91c74') in 0.069808 seconds
+  Import took 0.072364 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.018020 seconds.
+Registered in 0.001181 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -937,15 +1083,505 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.621 seconds
+- Completed reload, in  0.964 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1495 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2015.
+Total: 2.577500 ms (FindLiveObjects: 0.190800 ms CreateObjectMapping: 0.037600 ms MarkObjects: 2.237900 ms  DeleteObjects: 0.110300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000903 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.978 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1495 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2018.
+Total: 3.376900 ms (FindLiveObjects: 0.231000 ms CreateObjectMapping: 0.052700 ms MarkObjects: 2.987500 ms  DeleteObjects: 0.103800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000878 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.999 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1495 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2021.
+Total: 2.246500 ms (FindLiveObjects: 0.160600 ms CreateObjectMapping: 0.038000 ms MarkObjects: 1.953100 ms  DeleteObjects: 0.093900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 825.611071 seconds.
+  path: Assets/Scripts/Weapons/Pistol.cs
+  artifactKey: Guid(f6be21a62e18c304e8946aacbcf4168a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Weapons/Pistol.cs using Guid(f6be21a62e18c304e8946aacbcf4168a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dae3f19045ac302e48fc48f3621f7ca') in 0.060061 seconds
+  Import took 0.073058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.445910 seconds.
+  path: Assets/Scripts/Weapons/Guns.cs
+  artifactKey: Guid(a41a9be0fda544442b49b60232deca2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Weapons/Guns.cs using Guid(a41a9be0fda544442b49b60232deca2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5429bdb51a282a64176f4e9742e3065d') in 0.006549 seconds
+  Import took 0.016343 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000905 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.976 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1495 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2024.
+Total: 2.930300 ms (FindLiveObjects: 0.212100 ms CreateObjectMapping: 0.049600 ms MarkObjects: 2.527700 ms  DeleteObjects: 0.139600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 629.670103 seconds.
+  path: Assets/Scripts/Weapons/Guns.cs
+  artifactKey: Guid(a41a9be0fda544442b49b60232deca2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Weapons/Guns.cs using Guid(a41a9be0fda544442b49b60232deca2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e1639c8da646ddf3a7d2e078a5f05c') in 0.004430 seconds
+  Import took 0.007074 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001109 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.971 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1495 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2027.
+Total: 2.306300 ms (FindLiveObjects: 0.230400 ms CreateObjectMapping: 0.037000 ms MarkObjects: 1.938000 ms  DeleteObjects: 0.099300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 598.144490 seconds.
+  path: Assets/Scripts/Weapons/Guns.cs
+  artifactKey: Guid(a41a9be0fda544442b49b60232deca2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Weapons/Guns.cs using Guid(a41a9be0fda544442b49b60232deca2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0b44b5bfa03efc986565effd0c7f5c') in 0.027650 seconds
+  Import took 0.030554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.113992 seconds.
+  path: Assets/Scripts/Weapons/Gun.cs
+  artifactKey: Guid(a41a9be0fda544442b49b60232deca2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Weapons/Gun.cs using Guid(a41a9be0fda544442b49b60232deca2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767d53dcd36c691b2035e71d8760daa0') in 0.006608 seconds
+  Import took 0.009989 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001010 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.768 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1495 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2030.
+Total: 2.887500 ms (FindLiveObjects: 0.212700 ms CreateObjectMapping: 0.050100 ms MarkObjects: 2.460400 ms  DeleteObjects: 0.163000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1118.216394 seconds.
+  path: Assets/Scripts/Weapons/Pistol.cs
+  artifactKey: Guid(f6be21a62e18c304e8946aacbcf4168a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Weapons/Pistol.cs using Guid(f6be21a62e18c304e8946aacbcf4168a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de7ea04601db8980b844583579b2343') in 0.007825 seconds
+  Import took 0.011508 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001131 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.525 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1495 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2033.
+Total: 2.243800 ms (FindLiveObjects: 0.185500 ms CreateObjectMapping: 0.035800 ms MarkObjects: 1.922500 ms  DeleteObjects: 0.098700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 960.226341 seconds.
+  path: Assets/Scripts/Player/FPSMouseMove.cs
+  artifactKey: Guid(5c42fca5153f24d44af49587e60b91f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/FPSMouseMove.cs using Guid(5c42fca5153f24d44af49587e60b91f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8b252808a8c7a6f6e3acc34f768525') in 0.021191 seconds
+  Import took 0.023913 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001140 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.151 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1495 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2036.
+Total: 2.529200 ms (FindLiveObjects: 0.208100 ms CreateObjectMapping: 0.037500 ms MarkObjects: 2.170800 ms  DeleteObjects: 0.111200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000882 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.045 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1495 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2039.
+Total: 2.340700 ms (FindLiveObjects: 0.226800 ms CreateObjectMapping: 0.036800 ms MarkObjects: 1.971300 ms  DeleteObjects: 0.104400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000904 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.037 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1495 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2042.
+Total: 2.893400 ms (FindLiveObjects: 0.213000 ms CreateObjectMapping: 0.035900 ms MarkObjects: 2.520700 ms  DeleteObjects: 0.122400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001121 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.071 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1495 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2045.
+Total: 2.565400 ms (FindLiveObjects: 0.202800 ms CreateObjectMapping: 0.038000 ms MarkObjects: 2.217700 ms  DeleteObjects: 0.105400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.057 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1495 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2048.
+Total: 2.565600 ms (FindLiveObjects: 0.197400 ms CreateObjectMapping: 0.038100 ms MarkObjects: 2.221100 ms  DeleteObjects: 0.107200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000916 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.986 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1495 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2051.
+Total: 2.447900 ms (FindLiveObjects: 0.220900 ms CreateObjectMapping: 0.038200 ms MarkObjects: 2.080700 ms  DeleteObjects: 0.106700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001125 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.959 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1495 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2054.
+Total: 2.829900 ms (FindLiveObjects: 0.264900 ms CreateObjectMapping: 0.039500 ms MarkObjects: 2.408900 ms  DeleteObjects: 0.115300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000916 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Unity/Projects/GravitySwap/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.027 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.0 MB.
-System memory in use after: 77.1 MB.
+Unloading 1495 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.5 MB.
+System memory in use after: 88.6 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2051.
-Total: 2.522900 ms (FindLiveObjects: 0.192800 ms CreateObjectMapping: 0.038200 ms MarkObjects: 2.210100 ms  DeleteObjects: 0.080400 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2057.
+Total: 11.690300 ms (FindLiveObjects: 0.180100 ms CreateObjectMapping: 0.036200 ms MarkObjects: 2.049500 ms  DeleteObjects: 9.422800 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
