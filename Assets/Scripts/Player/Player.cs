@@ -4,39 +4,51 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     int playerID;
-    enum Teams { Red, Blue };
-    enum Guns {Primary, Secondary};
     int team;
     int kills;
+    int assists;
+    int deaths;
+
+    [SerializeField]
     Camera mainCamera;
+    enum Teams { Red, Blue };
+    enum Guns {Primary, Secondary};
+    public int PlayerID => playerID;
+    public int Kills => kills;
+    public int Assists => assists;
+    public int Deaths => deaths;
+    public Camera MainCamera => mainCamera;
 
-
+    public float health;
     public Gun primary;
     public Gun secondary;
     List<GameObject> playersInGame;
-    public Camera MainCamera => mainCamera;
+    public int Team => team;
 
     //Start is called before the first frame update
     void Start()
     {
-        mainCamera = gameObject.GetComponentInChildren<Camera>();
         primary = new Pistol();
         secondary = new Rifle();
-        StartCoroutine(primary.Shoot(this));
-            
+        playerID = gameObject.GetInstanceID();
+        Debug.Log("playerId is:" + playerID);
+        health = 100f;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            primary.SwapWeapon(this);
-            StopAllCoroutines();
-            StartCoroutine(primary.Shoot(this));
-        }
-        if (Input.GetButtonDown("Fire1"))
-            StartCoroutine(primary.Shoot(this));
 
+    public void Damage(Player damagingPlayer, float damageValue)
+    {
+        this.health -= damageValue;
+        Debug.Log("Enemy health is: " + this.health);
+        if(health <= 0f)
+        {
+            ++damagingPlayer.kills;
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        Destroy(gameObject);
     }
 }

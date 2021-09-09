@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Rifle : Gun
 {
+    int reloadSpeed;
+    [SerializeField]
+    Camera playerCam;
     public override IEnumerator Shoot(Player player)
     {
         while(Input.GetButton("Fire1"))
@@ -13,9 +16,5 @@ public class Rifle : Gun
             Debug.Log("hitInfo: " + hitInfo.point);
             yield return new WaitForSeconds(.1f);
         }
-    }
-    public override void Reload(Player player)
-    {
-        throw new System.NotImplementedException();
     }
 }

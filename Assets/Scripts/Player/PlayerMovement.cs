@@ -40,6 +40,10 @@ public class PlayerMovement : MonoBehaviour
     [Tooltip("The layer for which the ground checker is searching for.\n\nNOTE: Anything that should be stood on, should be of part Terrain.")]
     public LayerMask groundLayer;
 
+    [SerializeField]
+    [Tooltip("The Player script associated with this gameObject.")]
+    private Player playerData;
+
     public bool isMovingForwardBackward;
     public bool isMovingLeftRight;
 
@@ -59,14 +63,18 @@ public class PlayerMovement : MonoBehaviour
     {
         ListenForSprint();
         ListenForJump();
+        ListenForWeaponSwap();
+        ListenForFire();
 
-        checkIfGrounded();
+        ListenForGravitySwap();
         doPlayerMovement();
+
     }
 
     void FixedUpdate()
     {
         applyGravity();
+        checkIfGrounded();
     }
 
     private void checkIfGrounded()
@@ -104,11 +112,24 @@ public class PlayerMovement : MonoBehaviour
 
         moveVector.y = yVelocity;
         controller.Move(moveVector);
+
     }
 
     private void applyGravity()
     {
         yVelocity += gravity;
+    }
+
+    private void ListenForGravitySwap()
+    {
+        if(Input.GetButtonDown("Jump") && !isGrounded)
+        {
+            Debug.Log("Im being swapped");
+            jumpSpeed = -jumpSpeed;
+            gravity = -gravity;
+            transform.Rotate(Vector3.forward * 180);
+        }
+        
     }
 
     private void ListenForSprint()
@@ -131,4 +152,28 @@ public class PlayerMovement : MonoBehaviour
             wantToJump = true;
         }
     }
+
+    private void ListenForWeaponSwap()
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            playerData.primary.SwapWeapon(playerData);
+            StopAllCoroutines();
+        }
+    }
+    private void ListenForFire()
+    {
+
+        if (Input.GetButtonDown("Fire1"))
+            StartCoroutine(playerData.primary.Shoot(playerData));
+
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        // Draw a yellow sphere at the transform's position
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawSphere(groundChecker.position, .2f);
+    }
+
 }
