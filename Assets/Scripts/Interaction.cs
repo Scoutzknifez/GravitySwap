@@ -1,12 +1,14 @@
 using UnityEngine;
-
+using UnityEngine.Events;
 public class Interaction : MonoBehaviour
 {
     public Camera mainCamera;
     public float interactionDistance = 100f;
-    public GameObject interactable;
     private GameObject recentHit = null;
+    Color defaultColor;
 
+    [SerializeField]
+    Color hoverColor;
 
     void Update()
     {
@@ -24,7 +26,7 @@ public class Interaction : MonoBehaviour
             if (recentHit == null)
             {
                 recentHit = rayHitInfo.collider.gameObject;
-                recentHit.GetComponent<Interactable>().OnHover();
+                OnHover(recentHit);
                 return;
             }
             else
@@ -38,9 +40,9 @@ public class Interaction : MonoBehaviour
                 else
                 {
                     // It is a new object in view
-                    recentHit.GetComponent<Interactable>().LeaveHover();
+                    LeaveHover(recentHit);
                     recentHit = rayHitInfo.collider.gameObject;
-                    recentHit.GetComponent<Interactable>().OnHover();
+                    OnHover(recentHit);
                 }
             }
         }
@@ -48,7 +50,7 @@ public class Interaction : MonoBehaviour
         {
             if (recentHit != null)
             {
-                recentHit.GetComponent<Interactable>().LeaveHover();
+                LeaveHover(recentHit);
                 recentHit = null;
             }
         }
@@ -58,7 +60,20 @@ public class Interaction : MonoBehaviour
     {
         if (Input.GetKeyDown("e") && recentHit != null)
         {
-            recentHit.GetComponent<Interactable>().Interact();
+            recentHit.GetComponent<IInteractable>().Interact();
         }
+    }
+
+
+    public void OnHover(GameObject interactable)
+    {
+        //Called only once
+        defaultColor = interactable.GetComponent<MeshRenderer>().material.color;
+        interactable.GetComponent<MeshRenderer>().material.color = hoverColor;
+    }
+
+    public void LeaveHover(GameObject interactable)
+    {
+        interactable.GetComponent<MeshRenderer>().material.color = defaultColor;
     }
 }

@@ -169,6 +169,11 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
+    public void InteractTest()
+    {
+        Debug.Log("hello world");
+    }
+
     void OnDrawGizmosSelected()
     {
         // Draw a yellow sphere at the transform's position
