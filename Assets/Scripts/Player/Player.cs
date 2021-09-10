@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
     //Start is called before the first frame update
     void Start()
     {
-        primary = new Pistol();
+        primary = new Shotgun();
         secondary = new Rifle();
         playerID = gameObject.GetInstanceID();
         Debug.Log("playerId is:" + playerID);

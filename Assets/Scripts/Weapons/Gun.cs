@@ -6,7 +6,7 @@ public abstract class Gun
 {
     // Start is called before the first frame update
     public abstract IEnumerator Shoot(Player player);
-    public IEnumerator Reload(Player player)
+    public virtual IEnumerator Reload(Player player)
     {
         Debug.Log("Reloading");
         Reloading = true;

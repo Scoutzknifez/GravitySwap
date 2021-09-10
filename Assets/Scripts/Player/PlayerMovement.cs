@@ -25,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     [Tooltip("The jump height of the player.")]
     private float jumpSpeed = 5f;
+
     
     [Header("Player On Ground Tools")]
 

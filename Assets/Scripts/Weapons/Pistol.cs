@@ -27,7 +27,7 @@ public class Pistol : Gun
             //Debug.Log(hitInfo.distance);
             if(hit && hitInfo.collider.CompareTag("Player"))
             {
-                Player otherPlayer = hitInfo.collider.GetComponent<Player>();
+                Player otherPlayer = hitInfo.collider.GetComponentInParent<Player>();
                 if (hitInfo.distance <= DistanceValues[0])
                     otherPlayer.Damage(player, DamageValues[0]);
                 else if (hitInfo.distance <= DistanceValues[1])

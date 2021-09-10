@@ -56,25 +56,27 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Level1.cs" />
+    <Compile Include="Assets\Scripts\DevScripts\Level1.cs" />
     <Compile Include="Assets\Thirdparty\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Weapons\WeaponSwap.cs" />
     <Compile Include="Assets\Scripts\Weapons\Rifle.cs" />
     <Compile Include="Assets\Scripts\Weapons\Gun.cs" />
-    <Compile Include="Assets\Scripts\InnerBox.cs" />
+    <Compile Include="Assets\Scripts\DevScripts\InnerBox.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\Interaction.cs" />
-    <Compile Include="Assets\Scripts\IInteractable.cs" />
+    <Compile Include="Assets\Scripts\Interactions\Interaction.cs" />
+    <Compile Include="Assets\Scripts\Interfaces\IInteractable.cs" />
     <Compile Include="Assets\Scripts\DevScripts\MovementDebugging.cs" />
-    <Compile Include="Assets\Scripts\OuterBox.cs" />
+    <Compile Include="Assets\Scripts\DevScripts\OuterBox.cs" />
     <Compile Include="Assets\Scripts\DevScripts\CameraForward.cs" />
     <Compile Include="Assets\cubeNormals.cs" />
     <Compile Include="Assets\Scripts\Player\FPSMouseMove.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Weapons\Pistol.cs" />
+    <Compile Include="Assets\Scripts\Interactions\DoorInteraction.cs" />
     <Compile Include="Assets\Scripts\DevScripts\ViewFrustrum.cs" />
-    <Compile Include="Assets\Scripts\Weapons\CroutTest.cs" />
-    <Compile Include="Assets\Scripts\DoorInteraction.cs" />
+    <Compile Include="Assets\Scripts\DevScripts\CroutTest.cs" />
+    <Compile Include="Assets\Scripts\Weapons\Sniper.cs" />
+    <Compile Include="Assets\Scripts\Weapons\Shotgun.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Thirdparty\WeaponPack\License.txt" />
