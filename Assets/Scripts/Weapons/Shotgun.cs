@@ -33,6 +33,10 @@ public class Shotgun : Gun
                 //Debug.Log(hitInfo.distance);
                 if (hit && hitInfo.collider.CompareTag("Player"))
                 {
+                    if(player.GetComponent<LineRenderer>() == null)
+                        player.gameObject.AddComponent<LineRenderer>();
+                    LineRenderer line = player.gameObject.GetComponent<LineRenderer>();
+                    line.SetPositions(new Vector3[] { player.MainCamera.transform.position, hitInfo.point });
                     Player otherPlayer = hitInfo.collider.GetComponentInParent<Player>();
                     otherPlayer.Damage(player, DamageValues[0]);
                 }

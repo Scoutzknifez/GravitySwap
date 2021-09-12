@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4831598546407873808}
   - component: {fileID: 4831598546406546736}
   - component: {fileID: 4831598546405449712}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Mesh2_Group3_Group1_Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 4831598546407873810}
   - component: {fileID: 4831598546406546738}
   - component: {fileID: 4831598546405449714}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Mesh1_Group2_Group1_Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4831598546407873812}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pistol-USP
   m_TagString: Gun
   m_Icon: {fileID: 0}
@@ -208,7 +208,7 @@ GameObject:
   - component: {fileID: 4831598546407873814}
   - component: {fileID: 4831598546406546742}
   - component: {fileID: 4831598546405449718}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Mesh3_Group4_Group1_Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
