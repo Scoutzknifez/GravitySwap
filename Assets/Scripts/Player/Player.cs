@@ -20,16 +20,16 @@ public class Player : MonoBehaviour
     public Camera MainCamera => mainCamera;
 
     public float health;
-    public Gun primary;
-    public Gun secondary;
+    [SerializeField]
+    public GameObject primary;
+    [SerializeField]
+    public GameObject secondary;
     List<GameObject> playersInGame;
     public int Team => team;
 
     //Start is called before the first frame update
     void Start()
     {
-        primary = new Shotgun();
-        secondary = new Rifle();
         playerID = gameObject.GetInstanceID();
         Debug.Log("playerId is:" + playerID);
         health = 100f;

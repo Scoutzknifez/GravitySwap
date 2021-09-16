@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
 public class Rifle : Gun
 {
     int reloadSpeed;
@@ -18,3 +18,4 @@ public class Rifle : Gun
         }
     }
 }
+*/

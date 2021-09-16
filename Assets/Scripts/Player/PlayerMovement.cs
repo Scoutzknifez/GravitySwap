@@ -64,8 +64,6 @@ public class PlayerMovement : MonoBehaviour
     {
         ListenForSprint();
         ListenForJump();
-        ListenForWeaponSwap();
-        ListenForFire();
 
         ListenForGravitySwap();
         doPlayerMovement();
@@ -154,21 +152,6 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void ListenForWeaponSwap()
-    {
-        if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            playerData.primary.SwapWeapon(playerData);
-            StopAllCoroutines();
-        }
-    }
-    private void ListenForFire()
-    {
-
-        if (Input.GetButtonDown("Fire1"))
-            StartCoroutine(playerData.primary.Shoot(playerData));
-
-    }
 
     public void InteractTest()
     {
