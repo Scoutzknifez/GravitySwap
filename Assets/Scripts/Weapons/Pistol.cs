@@ -23,6 +23,8 @@ public class Pistol : MonoBehaviour
     [SerializeField]
     Transform endPoint;
     LineRenderer lr;
+    [SerializeField]
+    GameObject bulletTrace;
 
     private void Start()
     {
@@ -63,8 +65,11 @@ public class Pistol : MonoBehaviour
             ammoCountUI.text = AmmoCount.ToString();
             //Debug.Log(hitInfo.distance);
             if (hit)
-                StartCoroutine(BulletTrace(endPoint.position, hitInfo.point));
-            if (hit && hitInfo.collider.CompareTag("Player"))
+            {
+                GameObject bullet = Instantiate(bulletTrace, endPoint);
+                StartCoroutine(bullet.GetComponent<BulletTrace>().Bullet(endPoint.position, hitInfo.point));
+            }
+                if (hit && hitInfo.collider.CompareTag("Player"))
             {
                 Player otherPlayer = hitInfo.collider.GetComponentInParent<Player>();
                 if (hitInfo.distance <= DistanceValues[0])
@@ -85,11 +90,22 @@ public class Pistol : MonoBehaviour
     public IEnumerator Reload(Player player)
     {
         Debug.Log("Reloading");
+        if (AmmoInv == 0)
+            yield return null;
         Reloading = true;
         yield return new WaitForSeconds(ReloadSpeed);
-        AmmoInv -= MagSize + AmmoCount;
-        AmmoCount = MagSize;
+        if (AmmoInv > MagSize)
+        {
+            AmmoCount = MagSize;
+            AmmoInv -= MagSize + AmmoCount;
+        }
+        else if(AmmoInv > 0)
+        {
+            AmmoCount = AmmoInv;
+            AmmoInv = 0;
+        }
         Reloading = false;
+        ammoCountUI.text = AmmoCount.ToString();
         Debug.Log("Finished");
     }
     public void SwapWeapon(Player player)
@@ -98,18 +114,5 @@ public class Pistol : MonoBehaviour
         GameObject temp = player.primary;
         player.primary = player.secondary;
         player.secondary = temp;
-    }
-    public IEnumerator BulletTrace(Vector3 startPoint, Vector3 endPoint)
-    {
-        Vector3 temp = startPoint;
-        Debug.Log("Bullet Trace");
-        while (Vector3.Distance(startPoint, endPoint) > 3)
-        {
-            lr.SetPosition(0, startPoint);
-            lr.SetPosition(1, endPoint);
-            yield return null;
-            startPoint = Vector3.Lerp(startPoint, endPoint, .25f);
-        }
-        lr.SetPositions(new Vector3[] { temp, temp });
     }
 }
